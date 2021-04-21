@@ -16,6 +16,7 @@
   },
   "description": "testdemo2",
   "dependencies": {
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-theme-yilia-plus": "^1.0.0"
   }
 }

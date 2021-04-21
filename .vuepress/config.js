@@ -51,7 +51,8 @@ module.exports = {
       },
     ],
   ],
-  theme: "reco",
+  // theme: "reco",
+  theme: "vuepress-theme-yilia-plus",
   themeConfig: {
     nav: [
       {
@@ -118,6 +119,24 @@ module.exports = {
         link: "https://vuepress-theme-reco.recoluan.com",
       },
     ],
+    yilia_plus: {
+      // github-corner(关闭请设置为false)
+      github: {
+        url: "https://github.com/tangsanshao7",
+      },
+      footer: {
+        // 网站成立年份(若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
+        since: 2018,
+        // 网站作者(关闭请设置为false)
+        author:
+          '<a href="https://github.com/tangsanshao7/" target="_blank">tangsanshao7</a>',
+        // 访问量统计功能(不蒜子)
+        busuanzi: {
+          // 是否启用(关闭请设置为false)
+          enable: true,
+        },
+      },
+    },
     logo: "/logo.png",
     search: true,
     searchMaxSuggestions: 10,
