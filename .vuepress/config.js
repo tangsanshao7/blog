@@ -1,7 +1,7 @@
 const sidebar = require("./sidebar.js");
 module.exports = {
   title: "白月初",
-  description: "正因你我生于繁华,弥足之花方显珍贵",
+  description: "待人友善是修养，独来独往是性格",
   dest: "public",
   base: "/blog/",
   head: [
@@ -84,7 +84,7 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/tnag1908",
+            link: "https://github.com/tangsanshao7",
             icon: "reco-github",
           },
         ],
@@ -122,7 +122,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
-    author: "tnag1908",
+    author: "tangsanshao7",
     authorAvatar: "https://avatars.githubusercontent.com/u/41857884?v=4",
     record: "xxxx",
     startYear: "2017",
