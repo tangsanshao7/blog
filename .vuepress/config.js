@@ -52,106 +52,105 @@ module.exports = {
     ],
   ],
   // theme: "reco",
-  theme: "vuepress-theme-yilia-plus",
-  themeConfig: {
-    nav: [
-      {
-        text: "主页",
-        link: "/",
-        icon: "reco-home",
-      },
-      {
-        text: "时间线",
-        link: "/timeline/",
-        icon: "reco-date",
-      },
-      {
-        text: "文档",
-        icon: "reco-message",
-        items: [
-          {
-            text: "vuepress-reco",
-            link: "/docs/theme-reco/",
-          },
-          {
-            text: "前端",
-            link: "/docs/Front-end/",
-          },
-        ],
-      },
-      {
-        text: "关于我",
-        icon: "reco-message",
-        items: [
-          {
-            text: "GitHub",
-            link: "https://github.com/tangsanshao7",
-            icon: "reco-github",
-          },
-        ],
-      },
-    ],
-    // 侧边栏
-    sidebar: sidebar,
-    type: "blog",
-    blogConfig: {
-      category: {
-        location: 2,
-        text: "分类",
-      },
-      tag: {
-        location: 3,
-        text: "标签",
-      },
+  theme: 'vuepress-theme-yilia-plus',
+  yilia_plus: {
+    // github-corner(关闭请设置为false)
+    github: {
+      url: "https://github.com/tangsanshao7"
     },
-    friendLink: [
-      {
-        title: "午后南杂",
-        desc: "Enjoy when you can, and endure when you must.",
-        email: "1156743527@qq.com",
-        link: "https://www.recoluan.com",
-      },
-      {
-        title: "vuepress-theme-reco",
-        desc: "A simple and beautiful vuepress Blog & Doc theme.",
-        avatar:
-          "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: "https://vuepress-theme-reco.recoluan.com",
-      },
-    ],
-    yilia_plus: {
-      // github-corner(关闭请设置为false)
-      github: {
-        url: "https://github.com/tangsanshao7",
-      },
-      footer: {
-        // 网站成立年份(若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-        since: 2018,
-        // 网站作者(关闭请设置为false)
-        author:
-          '<a href="https://github.com/tangsanshao7/" target="_blank">tangsanshao7</a>',
-        // 访问量统计功能(不蒜子)
-        busuanzi: {
-          // 是否启用(关闭请设置为false)
-          enable: true,
-        },
-      },
-    },
-    logo: "/logo.png",
-    search: true,
-    searchMaxSuggestions: 10,
-    lastUpdated: "Last Updated",
-    author: "tangsanshao7",
-    authorAvatar: "https://avatars.githubusercontent.com/u/41857884?v=4",
-    record: "xxxx",
-    startYear: "2017",
-    // 备案
-    record: "ICP 备案文案",
-    recordLink: "ICP 备案指向链接",
-    cyberSecurityRecord: "公安部备案文案",
-    cyberSecurityLink: "公安部备案指向链接",
-    subSidebar: "auto", //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    footer: {
+      // 网站成立年份(若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
+      since: 2018,
+      // 网站作者(关闭请设置为false)
+      author: '<a href="https://github.com/tangsanshao7/" target="_blank">tangsanshao7</a>',
+      // 访问量统计功能(不蒜子)
+      busuanzi: {
+        // 是否启用(关闭请设置为false)
+        enable: true
+      }
+    }
   },
+  // themeConfig: {
+  //   nav: [
+  //     {
+  //       text: "主页",
+  //       link: "/",
+  //       icon: "reco-home",
+  //     },
+  //     {
+  //       text: "时间线",
+  //       link: "/timeline/",
+  //       icon: "reco-date",
+  //     },
+  //     {
+  //       text: "文档",
+  //       icon: "reco-message",
+  //       items: [
+  //         {
+  //           text: "vuepress-reco",
+  //           link: "/docs/theme-reco/",
+  //         },
+  //         {
+  //           text: "前端",
+  //           link: "/docs/Front-end/",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       text: "关于我",
+  //       icon: "reco-message",
+  //       items: [
+  //         {
+  //           text: "GitHub",
+  //           link: "https://github.com/tangsanshao7",
+  //           icon: "reco-github",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  //   // 侧边栏
+  //   sidebar: sidebar,
+  //   type: "blog",
+  //   blogConfig: {
+  //     category: {
+  //       location: 2,
+  //       text: "分类",
+  //     },
+  //     tag: {
+  //       location: 3,
+  //       text: "标签",
+  //     },
+  //   },
+  //   friendLink: [
+  //     {
+  //       title: "午后南杂",
+  //       desc: "Enjoy when you can, and endure when you must.",
+  //       email: "1156743527@qq.com",
+  //       link: "https://www.recoluan.com",
+  //     },
+  //     {
+  //       title: "vuepress-theme-reco",
+  //       desc: "A simple and beautiful vuepress Blog & Doc theme.",
+  //       avatar:
+  //         "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+  //       link: "https://vuepress-theme-reco.recoluan.com",
+  //     },
+  //   ],
+  //   logo: "/logo.png",
+  //   search: true,
+  //   searchMaxSuggestions: 10,
+  //   lastUpdated: "Last Updated",
+  //   author: "tangsanshao7",
+  //   authorAvatar: "https://avatars.githubusercontent.com/u/41857884?v=4",
+  //   record: "xxxx",
+  //   startYear: "2017",
+  //   // 备案
+  //   record: "ICP 备案文案",
+  //   recordLink: "ICP 备案指向链接",
+  //   cyberSecurityRecord: "公安部备案文案",
+  //   cyberSecurityLink: "公安部备案指向链接",
+  //   subSidebar: "auto", //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+  // },
   markdown: {
     lineNumbers: true,
   },
