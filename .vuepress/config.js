@@ -51,8 +51,8 @@ module.exports = {
       },
     ],
   ],
-  // theme: "reco",
-  theme: "vuepress-theme-yilia-plus",
+  theme: "reco",
+  // theme: "vuepress-theme-yilia-plus",
   themeConfig: {
     nav: [
       {
