@@ -19,6 +19,23 @@ module.exports = {
         content: "width=device-width,initial-scale=1,user-scalable=no",
       },
     ],
+    [
+      "script",
+      {
+        language: "javascript",
+        type: "text/javascript",
+        src: "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js",
+      },
+    ],
+    // 引入鼠标点击脚本
+    [
+      "script",
+      {
+        language: "javascript",
+        type: "text/javascript",
+        src: "/js/MouseClickEffect.js",
+      },
+    ],
   ],
   plugins: [
     ["vuepress-plugin-code-copy", true],
@@ -118,5 +135,34 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
+  },
+  plugins: {
+    // 鼠标点击特效
+    meting: {
+      meting: {
+        // 歌单地址-> 如果输入可忽略server|type|mid
+        // 但是不知道为什么不写上这三个会报错, 所以我都写上了
+        auto: "https://music.163.com/#/playlist?id=2407253084",
+
+        // 当前服务为netease -> 网易
+        server: "netease",
+        // 类型为歌单
+        type: "playlist",
+        // 歌单id
+        mid: "2407253084",
+      },
+      aplayer: {
+        // 歌单为随机
+        order: "random",
+        // 0为不显示歌词
+        lrcType: 0,
+        // 音量
+        volume: 0.15,
+        // 开启迷你模式
+        mini: true,
+        // 自动播放
+        autoplay: true,
+      },
+    },
   },
 };
