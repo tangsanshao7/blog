@@ -137,7 +137,13 @@ module.exports = {
     lineNumbers: true,
   },
   plugins: {
-    // 鼠标点击特效
+       // 鼠标点击特效
+    "cursor-effects": {
+    size: 2,
+    shape: 'circle',  // 点击形状: 'star', 'star' | 'circle'
+    zIndex: 999999999
+      },
+    // 音乐播放器
     meting: {
       meting: {
         // 歌单地址-> 如果输入可忽略server|type|mid
@@ -155,7 +161,7 @@ module.exports = {
         // 歌单为随机
         order: "random",
         // 0为不显示歌词
-        lrcType: 0,
+        lrcType: 1,
         // 音量
         volume: 0.15,
         // 开启迷你模式
@@ -163,6 +169,26 @@ module.exports = {
         // 自动播放
         autoplay: true,
       },
+    },
+    // 看板娘
+    'vuepress-plugin-helper-live2d': {
+      // 是否开启控制台日志打印(default: false)
+      log: true,
+      live2d: {
+        // 是否启用(关闭请设置为false)(default: true)
+        enable: true,
+        // 模型名称(default: hibiki)
+        model: 'koharu',
+        display: {
+          vOffset: -55, //  垂直偏移(default: 0)
+        },
+        mobile: {
+          show: false // 是否在移动设备上显示(default: false)
+        },
+        react: {
+          opacity: 0.8 // 模型透明度(default: 0.8)
+        }
+      }
     },
   },
 };
