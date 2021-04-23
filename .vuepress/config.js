@@ -1,6 +1,6 @@
 const sidebar = require("./sidebar.js");
 module.exports = {
-  title: "白月初",
+  title: "tangsanshao",
   description: "待人友善是修养，独来独往是性格",
   dest: "public",
   base: "/blog/",

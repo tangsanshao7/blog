@@ -1,16 +1,17 @@
 ---
 home: true
 heroText: 博客
-tagline: 正因你我生于繁华,弥足之花方显珍贵
+tagline: 待人友善是修养，独来独往是性格
 heroImage: /hero.png
-heroImageStyle: {
-  maxWidth: '600px',
-  width: '100%',
-  display: block,
-  margin: '9rem auto 2rem',
-  background: '#fff',
-  borderRadius: '1rem',
-}
+heroImageStyle:
+  {
+    maxWidth: "600px",
+    width: "100%",
+    display: block,
+    margin: "9rem auto 2rem",
+    background: "#fff",
+    borderRadius: "1rem",
+  }
 bgImageStyle: { height: "450px" }
 isShowTitleInHome: false
 actionText: Guide
