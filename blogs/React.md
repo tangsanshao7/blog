@@ -203,7 +203,12 @@ https://babeljs.io/repl/
 4.绑定样式(style)
 由于样式是键值对形式的, 所以在 JSX 中如果想要动态绑定样式
 必须将样式放到一个对象中, 并且所有以-连接的样式名称都要转换成驼峰命名
-`<p style={{color:'red', fontSize:'50px'}}>绑定样式</p>`
+
+```html
+<p style={{color:'red', fontSize:'50px'}}>绑定样式</p>
+```
+
+
 
 ## React 基础-day02
 
@@ -353,14 +358,23 @@ class Hello extends React.Component {
 }
 ```
 
-- 语法：`this.setState({ count: this.state.count + 1 })`
+- 语法：
+
+- ```jsx
+  this.setState({ count: this.state.count + 1 })
+  ```
+  
   - 1 setState 方法的参数是一个对象
   - 2 对象中的键表示要修改的状态名称，值表示要更新的最新值
+  
 - 注意：不要直接修改 state 中的数据！！！
+  
   - 错误演示：~~this.state.count += 1~~
+  
 - setState() 方法的两个作用：
   - 1 修改状态
   - 2 更新 UI（页面）
+  
 - 思想：数据驱动视图，数据是核心！！！
 
 ```js
