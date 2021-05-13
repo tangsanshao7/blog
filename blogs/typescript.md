@@ -1106,3 +1106,4 @@ let getProps = (obj, key) => {
 逆变（Contravariant）：只在相反的方向；
 双向协变（Bivariant）：包括同一个方向和不同方向；
 不变（Invariant）：如果类型不完全相同，则它们是不兼容的。
+     

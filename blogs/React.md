@@ -918,3 +918,4 @@ Mouse 组件负责:封装复用的状态逻辑代码(1. 状态 2. 操作状态�
 
  注意:并不是该模式叫 render props 就必须使用名为 render 的 prop，实际上可以使用任意名称的 prop  把 prop 是一个函数并且告诉组件要渲染什么内容的技术叫做:render props 模式
  推荐:使用 children 代替 render 属性
+    
