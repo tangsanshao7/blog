@@ -41,6 +41,16 @@ module.exports = {
     ["vuepress-plugin-code-copy", true],
     "@vuepress/medium-zoom",
     [
+      "dynamic-title",
+      {
+        showIcon: "/favicon.ico",
+        showText: "(/≧▽≦/)咦！又好了！",
+        hideIcon: "/failure.ico",
+        hideText: "(●—●)喔哟，崩溃啦！",
+        recoverTime: 2000,
+      },
+    ],
+    [
       "@vuepress/pwa", // 更新刷新插件
       {
         serviceWorker: true,
