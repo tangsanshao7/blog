@@ -38,8 +38,6 @@ module.exports = {
     ],
   ],
   plugins: [
-    ["vuepress-plugin-code-copy", true],
-    "@vuepress/medium-zoom",
     [
       "dynamic-title",
       {
@@ -51,12 +49,11 @@ module.exports = {
       },
     ],
     [
-      "@vuepress/pwa", // 更新刷新插件
+      "vuepress-plugin-nuggets-style-copy",
       {
-        serviceWorker: true,
-        updatePopup: {
-          message: "发现新内容可用",
-          buttonText: "刷新",
+        copyText: "复制代码",
+        tip: {
+          content: "复制成功!",
         },
       },
     ],
