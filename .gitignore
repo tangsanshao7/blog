@@ -1,4 +1,5 @@
 node_modules/
-yarn.lock
-yarn.error
-/public
+gb-pages/
+docs/.vuepress/dist/
+.vscode/
+.idea/
