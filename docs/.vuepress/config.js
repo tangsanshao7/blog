@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-17 20:47:26
- * @LastEditTime: 2021-05-18 15:46:23
+ * @LastEditTime: 2021-05-19 21:32:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settitangsanshao7
  * @FilePath: \blog2\docs\.vuepress\config.js
@@ -13,8 +13,8 @@ const plugins = require("./config/plugins/");
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
-  base: "/tangsanshao7/",
-  title: "tangsanshao7",
+  base: "/blog/",
+  // title: "tangsanshao7",
   description: "待人友善是修养，独来独往是性格。",
   head: [
     [
@@ -83,7 +83,7 @@ module.exports = {
     // 项目开始时间
     startYear: "2019",
     //git地址
-    repo: "tangsanshao7/blog",
+    // repo: "tangsanshao7/blog",
     // 如果你的文档不在仓库的根部
     docsDir: "docs",
     // 可选，默认为 master
