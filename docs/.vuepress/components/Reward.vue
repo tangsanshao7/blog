@@ -58,7 +58,7 @@ export default {
   data() {
     return {
       rewarder,
-      rewardImg: "/tangsanshao7/vuepress/zanshang01.png",
+      rewardImg: "/blog/vuepress/zanshang01.png",
     };
   },
 };

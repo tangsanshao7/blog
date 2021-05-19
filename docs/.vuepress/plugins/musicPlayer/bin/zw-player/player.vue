@@ -193,7 +193,7 @@ export default {
             if(path != '/' ) return
             let flag = sessionStorage.getItem('zk');
             if(flag == null) {
-                window.location.href=('/tangsanshao7/view/index.html')
+                window.location.href=('/blog/view/index.html')
                 sessionStorage.setItem('zk', 'zv');
             }
         }

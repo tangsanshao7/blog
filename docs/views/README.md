@@ -46,7 +46,7 @@ isShowComments: true
 			return {
                 changeTime: '2000',
 				index: 2,
-				imgSrc: '/tangsanshao7/view/比心1.png',
+				imgSrc: '/blog/view/比心1.png',
 				active: 'active'
 			}
 		},
@@ -66,7 +66,7 @@ isShowComments: true
 					}else {
 						this.active="active";
 					}
-					this.imgSrc = '/tangsanshao7/view/' + picList[Math.floor(Math.random() * picList.length)]
+					this.imgSrc = '/blog/view/' + picList[Math.floor(Math.random() * picList.length)]
 					
 				}, 5000)
 			},
