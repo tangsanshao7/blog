@@ -13,7 +13,7 @@ const plugins = require("./config/plugins/");
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
-  base: "/tangsanshao7.github.io/",
+  //base: "/tangsanshao7.github.io/",
   title: "唐基炜",
   description: "待人友善是修养，独来独往是性格。",
   head: [
