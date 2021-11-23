@@ -14,7 +14,7 @@ const plugins = require("./config/plugins/");
 module.exports = {
   // dest: 'gb-pages',//打包目录
   //base: "/tangsanshao7.github.io/",
-  title: "唐基炜",
+  title: "Cas",
   description: "待人友善是修养，独来独往是性格。",
   head: [
     [
@@ -77,7 +77,7 @@ module.exports = {
     lastUpdated: true,
     lastUpdated: "上次更新", // string | boolean
     // 作者
-    author: "tangjiwei",
+    author: "Cas",
     // 备案号
     record: "京ICP备17067634号-1",
     // 项目开始时间

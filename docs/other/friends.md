@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 友人帐
 sidebar: true
 isShowComments: true
@@ -112,4 +112,4 @@ reward: true
 - 站点要求：内容合法、非营利性。
 - 申请前请记得先添加本站哦～
 
-<Reward/>
+<Reward/> -->

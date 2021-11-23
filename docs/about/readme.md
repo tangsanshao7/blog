@@ -7,8 +7,8 @@ isShowComments: true
 
 <p align="center"><img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/vuepress/head-fish.jpg')" alt="znote-head" width=160></p>
 
-<p align="center" style="margin-top: -15px;">
-  <a href="https://github.com/tangsanshao7" class="zi zi_textbook"></a> 
+ <p align="center" style="margin-top: -15px;">
+  <!-- <a href="https://github.com/tangsanshao7" class="zi zi_textbook"></a>   -->
   <a href="mailto:tjw_18797522543@163.com" class="zi zi_envelope"></a> 
   <a href="https://github.com/tangsanshao7" class="zi zi_tmGithub"></a>
   <a href="https://twitter.com/tang46135866" class="zi zi_tmTwitter"></a>
@@ -35,7 +35,7 @@ I'm nothing without you.
 
 ### 兴趣方向
 
-- 全栈​
+- 全栈 ​
 
 ### 成熟标志
 
@@ -48,7 +48,7 @@ I'm nothing without you.
 
 ### 参与社区
 
-- 博客：[https://tangsanshao7.github.io/blog/](https://tangsanshao7.github.io/blog/)
+- 博客：[https://castang.top/](https://castang.top/)
 - Github：[https://github.com/tangsanshao7](https://github.com/tangsanshao7)
 
 ### 联系我
