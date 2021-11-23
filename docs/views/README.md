@@ -6,7 +6,7 @@ sidebarDepth: 0
 isShowComments: true
 ---
 
-<div style="height: 120px">
+<div style="height: 100px">
 	<Boxx :changeTime='changeTime' />
 </div>
 
@@ -46,7 +46,7 @@ isShowComments: true
 			return {
                 changeTime: '2000',
 				index: 2,
-				imgSrc: '/blog/view/比心1.png',
+				imgSrc: '/view/比心1.png',
 				active: 'active'
 			}
 		},
