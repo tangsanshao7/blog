@@ -1,4 +1,4 @@
-<!--
+<!-- <!--
  * @Author: your name
  * @Date: 2021-05-17 20:47:26
  * @LastEditTime: 2021-05-18 15:34:52
@@ -58,7 +58,7 @@ export default {
   data() {
     return {
       rewarder,
-      rewardImg: "/blog/vuepress/zanshang01.png",
+      rewardImg: "/vuepress/zanshang01.png",
     };
   },
 };
@@ -81,3 +81,4 @@ table th:nth-of-type(1), th:nth-of-type(4), th:nth-of-type(5) {
     width: 22.5%;
 }
 </style>
+-->

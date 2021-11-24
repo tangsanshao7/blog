@@ -1,6 +1,7 @@
 ---
 title: vue笔记
 date: 2021-11-24
+sidebar: true
 tags:
   - 前端
 categories:

@@ -2,12 +2,12 @@
 title: Git常用命令清单
 date: 2021-11-24
 sidebar: true
-sidebarDepth: 5
 tags:
   - git
 categories:
   - "git"
-isShowComments: true
+isShowComments: false
+publish: true
 ---
 
 ![](/tangsanshao7/img/other/git_001.png)
@@ -316,4 +316,4 @@ $ git archive
 
 参考自阮一峰老师：[ 常用 Git 命令清单 ](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 
-<Reward/>
+<!-- <Reward/> -->
