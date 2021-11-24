@@ -1,7 +1,7 @@
 ---
 title: 概览
 sidebar: true
-date: 2019-08-21
+date: 2021-11-24
 sidebarDepth: 0
 isShowComments: true
 ---
@@ -28,15 +28,15 @@ isShowComments: true
 
 <div id='fj'>
 
-[【前端】](/views/frontend/EChartsStudy.html) | [【后端】](/views/backend/ArrayList.html)
+[【前端】](/views/frontend/EChartsStudy.html)| [【随笔】](/views/essay/20191109.html)
 
 </div>
 
-<div id='se'>
+<!-- <div id='se'> -->
 
-[【规范】](/views/specification/ali.html) | [【随笔】](/views/essay/20191109.html)
+<!-- [【规范】](/views/specification/ali.html) | [【随笔】](/views/essay/20191109.html) | [【后端】](/views/backend/ArrayList.html) -->
 
-</div>
+<!-- </div> -->
 
 <CatalogGraph  root='/views/' title='概览' :height='320' />
 
@@ -44,7 +44,7 @@ isShowComments: true
 	export default {
 		data() {
 			return {
-                changeTime: '2000',
+                changeTime: '5000',
 				index: 2,
 				imgSrc: '/view/比心1.png',
 				active: 'active'
@@ -66,7 +66,7 @@ isShowComments: true
 					}else {
 						this.active="active";
 					}
-					this.imgSrc = '/blog/view/' + picList[Math.floor(Math.random() * picList.length)]
+					this.imgSrc = '/view/' + picList[Math.floor(Math.random() * picList.length)]
 					
 				}, 5000)
 			},

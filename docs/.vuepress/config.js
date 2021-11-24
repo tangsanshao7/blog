@@ -17,14 +17,14 @@ module.exports = {
   title: "Cas",
   description: "待人友善是修养，独来独往是性格。",
   head: [
-    [
-      "link",
-      {
-        rel: "icon",
-        href:
-          "https://infinitypro-img.infinitynewtab.com/custom-icon/8001de1jd3n68lbfnxxt564xvb0vl5.png?imageMogr2/thumbnail/240x/format/webp/blur/1x0/quality/100|imageslim",
-      },
-    ],
+    // [
+    //   "link",
+    //   {
+    //     rel: "icon",
+    //     href:
+    //       "",
+    //   },
+    // ],
     [
       "meta",
       {

@@ -1,13 +1,12 @@
 ---
 title: Git常用命令清单
-date: 2018-03-12
+date: 2021-11-24
 sidebar: true
 sidebarDepth: 5
 tags:
-  - "开发规范"
   - git
 categories:
-  - "后端"
+  - "git"
 isShowComments: true
 ---
 
