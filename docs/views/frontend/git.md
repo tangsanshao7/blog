@@ -10,7 +10,7 @@ isShowComments: false
 publish: true
 ---
 
-![](/tangsanshao7/img/other/git_001.png)
+![](/img/other/git_001.png)
 
 <!-- more -->
 
