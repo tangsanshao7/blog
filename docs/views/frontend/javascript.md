@@ -75,7 +75,7 @@ console.log(Star.sex); //静态成员只能通过构造函数来访问
 
 构造函数方法很好用，但是存在浪费内存的问题。
 
-![](/img/javascript/img1.png)
+![](/img/frontend/javascript/img1.png)
 
 ### 1.4 构造函数原型 prototype
 
@@ -99,7 +99,7 @@ ldh.sing(); //我会唱歌
 zxy.sing(); //我会唱歌
 ```
 
-![](/img/javascript/img7.png)
+![](/img/frontend/javascript/img7.png)
 
 ### 1.5 对象原型
 
@@ -112,9 +112,9 @@ __proto__对象原型的意义就在于为对象的查找机制提供一个方�
 prototype
 ```
 
-![](/img/javascript/img2.png)
+![](/img/frontend/javascript/img2.png)
 
-![](/img/javascript/img3.png)
+![](/img/frontend/javascript/img3.png)
 
 ### 1.6constructor 构造函数
 
@@ -153,15 +153,15 @@ console.log(zxy);
 
 以上代码运行结果,设置 constructor 属性如图:
 
-![](/img/javascript/img8.png)如果未设置 constructor 属性,如图:
+![](/img/frontend/javascript/img8.png)如果未设置 constructor 属性,如图:
 
-![](/img/javascript/img9.png)
+![](/img/frontend/javascript/img9.png)
 
 ### 1.7 原型链
 
 ​ 每一个实例对象又有一个**proto**属性，指向的构造函数的原型对象，构造函数的原型对象也是一个对象，也有**proto**属性，这样一层一层往上找就形成了原型链。
 
-![](/img/javascript/img5.png)
+![](/img/frontend/javascript/img5.png)
 
 ### 1.8 构造函数实例和原型对象三角关系
 
@@ -171,7 +171,7 @@ console.log(zxy);
 3.构造函数的原型对象的constructor属性指向了构造函数,实例对象的原型的constructor属性也指向了构造函数
 ```
 
-![](/img/javascript/img4.png)
+![](/img/frontend/javascript/img4.png)
 
 ### 1.9 原型链和成员的查找机制
 
@@ -205,7 +205,7 @@ console.log(that === ldh); //true
 // 2.原型对象函数里面的this 指向的是 实例对象 ldh
 ```
 
-![](/img/javascript/img6.png)
+![](/img/frontend/javascript/img6.png)
 
 ### 1.11 通过原型为数组扩展内置方法
 
@@ -238,7 +238,7 @@ var o = {
 fn.call(o, 1, 2); //调用了函数此时的this指向了对象o,
 ```
 
-![](/img/javascript/img10.png)
+![](/img/frontend/javascript/img10.png)
 
 ### 2.2 子构造函数继承父构造函数中的属性
 
@@ -264,7 +264,7 @@ var son = new Son('刘德华', 18, 100);
 console.log(son);
 ```
 
-![](/img/javascript/img11.png)
+![](/img/frontend/javascript/img11.png)
 
 ### 2.3 借用原型对象继承方法
 
@@ -302,7 +302,7 @@ console.log(son);
 
 如上代码结果如图:
 
-![](/img/javascript/img12.png)
+![](/img/frontend/javascript/img12.png)
 
 ## 3.ES5 新增方法
 
@@ -579,7 +579,7 @@ setInterval(function() {}, 1000);
 
 一般指向我们的调用者.
 
-![](/img/javascript/img13.png)
+![](/img/frontend/javascript/img13.png)
 
 ### 5.2 改变函数内部 this 指向
 
@@ -603,7 +603,7 @@ fn.call(o, 1, 2); //此时的this指向的是对象o,参数使用逗号隔开,�
 
 以上代码运行结果为:
 
-![](/img/javascript/img16.png)
+![](/img/frontend/javascript/img16.png)
 
 #### 5.2.2 apply 方法
 
@@ -623,7 +623,7 @@ fn(); // 此时的this指向的是window 运行结果为3
 fn.apply(o, [1, 2]); //此时的this指向的是对象o,参数使用数组传递 运行结果为3
 ```
 
-![](/img/javascript/img16.png)
+![](/img/frontend/javascript/img16.png)
 
 #### 5.2.3 bind 方法
 
@@ -646,7 +646,7 @@ var f = fn.bind(o, 1, 2); //此处的f是bind返回的新函数
 f(); //调用新函数  this指向的是对象o 参数使用逗号隔开
 ```
 
-![](/img/javascript/img17.png)
+![](/img/frontend/javascript/img17.png)
 
 #### 5.2.4 call、apply、bind 三者的异同
 
@@ -751,7 +751,7 @@ setTimeout(function() {
 
 高阶函数是对其他函数进行操作的函数，它接收函数作为参数或将函数作为返回值输出。
 
-![](/img/javascript/img14.png)
+![](/img/frontend/javascript/img14.png)
 
 此时 fn 就是一个高阶函数
 
@@ -773,7 +773,7 @@ setTimeout(function() {
 
 闭包（closure）指有权访问另一个函数作用域中变量的函数。简单理解就是 ，一个作用域可以访问另外一个函数内部的局部变量。
 
-![](/img/javascript/img15.png)
+![](/img/frontend/javascript/img15.png)
 
 ### 8.3 闭包的作用
 
@@ -899,7 +899,7 @@ function fn(n) {
 console.log(fn(3));
 ```
 
-![](/img/javascript/img18.png)
+![](/img/frontend/javascript/img18.png)
 
 ### 9.3 利用递归求斐波那契数列
 
