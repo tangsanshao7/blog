@@ -16,7 +16,7 @@ isShowComments: true
 
 <div id='category'>
 
-[【分类】](/categories/)
+[【分类】](/categories/vue)
 
 </div>
 
