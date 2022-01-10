@@ -72,7 +72,7 @@ I'm nothing without you.
 
 - 本仓库代码使用 [MIT](https://github.com/SigureMo/notev/blob/master/LICENSE) 协议进行开源，但是全部文档内容使用 [CC 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 协议进行发布
 
-<Reward/>
+<!-- <Reward/> -->
 
 <link rel="stylesheet" href="https://ico.z01.com/zico.min.css">
 
