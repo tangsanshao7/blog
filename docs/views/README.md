@@ -16,7 +16,7 @@ isShowComments: true
 
 <div id='category'>
 
-[【分类】](/categories/后端/)
+[【分类】](/categories/)
 
 </div>
 
@@ -28,7 +28,6 @@ isShowComments: true
 
 <div id='fj'>
 
-[【前端】](/views/frontend/EChartsStudy.html)| [【随笔】](/views/essay/20191109.html)
 
 </div>
 

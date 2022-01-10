@@ -1,3 +1,15 @@
+---
+title: linux
+date: 2022-1-10
+sidebar: true
+tags:
+  - 前端
+categories:
+  - linux
+isShowComments: false
+publish: true
+---
+
 ## 1. 操作系统概述
 
 ### 1.1 操作系统及作用
