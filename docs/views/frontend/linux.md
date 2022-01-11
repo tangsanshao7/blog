@@ -1,6 +1,6 @@
 ---
 title: linux
-date: 2022-1-10
+date: 2022-01-10
 sidebar: true
 tags:
   - 前端
@@ -9,6 +9,7 @@ categories:
 isShowComments: false
 publish: true
 ---
+
 
 ## 1. 操作系统概述
 
