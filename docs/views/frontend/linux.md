@@ -10,6 +10,7 @@ isShowComments: false
 publish: true
 ---
 
+[[toc]] //目录链接
 
 ## 1. 操作系统概述
 

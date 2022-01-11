@@ -10,6 +10,8 @@ isShowComments: false
 publish: true
 ---
 
+[[toc]] //目录链接
+
 ## 1.构造函数和原型
 
 ### 1.1 对象的三种创建方式--复习

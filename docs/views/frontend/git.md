@@ -10,6 +10,9 @@ isShowComments: false
 publish: true
 ---
 
+[[toc]] //目录链接
+
+
 ![](/img/other/git_001.png)
 
 <!-- more -->
