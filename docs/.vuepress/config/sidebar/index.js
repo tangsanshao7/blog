@@ -5,7 +5,7 @@ module.exports = {
     {
       title: "前端 Front-end",
       collapsable: true,
-      children: ["frontend/vue", "frontend/git", "frontend/javascript"],
+      children: ["frontend/vue", "frontend/git", "frontend/javascript","frontend/typescript","frontend/linux"],
     },
 
     {
