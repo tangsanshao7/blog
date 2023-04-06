@@ -5,15 +5,15 @@ module.exports = [
     text: "其它",
     icon: "reco-document",
     items: [
-      {
-        text: "Projects🎈",
-        items: [
-          {
-            text: "My Project",
-            link: "/other/project",
-          },
-        ],
-      },
+    //   {
+    //     text: "Projects🎈",
+    //     items: [
+    //       {
+    //         text: "My Project",
+    //         link: "/other/project",
+    //       },
+    //     ],
+    //   },
       {
         text: "Common sites🎈",
         items: [

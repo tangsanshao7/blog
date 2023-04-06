@@ -35,7 +35,7 @@ I'm nothing without you.
 
 ### 兴趣方向
 
-- 全栈 ​
+- 前端 ​
 
 ### 成熟标志
 
@@ -48,7 +48,7 @@ I'm nothing without you.
 
 ### 参与社区
 
-- 博客：[https://castang.top/](https://castang.top/)
+<!-- - 博客：[https://castang.top/](https://castang.top/) -->
 - Github：[https://github.com/tangsanshao7](https://github.com/tangsanshao7)
 
 ### 联系我
